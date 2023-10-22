@@ -1,0 +1,11 @@
+.k{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: 1s;
+}
+.k:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+
