@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Lesson9/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <p>Друга легка форма для вас</p>
+    </header>
+    <main>
+      <div class="m1"></div>
+      <div class="m2">
+        <form action="#" method="post" enctype="multipart/form-data">
+          <div>
+            <p class="textform">Оберіть продукт</p>
+            <p><input type="radio" name="product" value="phone" /> Телефон</p>
+            <p>
+              <input checked type="radio" name="product" value="laptop" />
+              Ноутбук
+            </p>
+            <p><input type="radio" name="product" value="cleaner" /> Пилосос</p>
+            <p><input type="radio" name="product" value="charger" /> Зарядка</p>
+          </div>
+          <div>
+            <p class="textform">Оберіть потужність</p>
+            <p><input type="checkbox" name="power" value="15w" />15w</p>
+            <p><input type="checkbox" name="power" value="25w" />25w</p>
+            <p><input type="checkbox" name="power" value="65w" />65w</p>
+            <p>
+              <input checked type="checkbox" name="power" value="100w" />100w
+            </p>
+            <p><input type="checkbox" name="power" value="200w" />200w</p>
+          </div>
+          <div>
+            <p class="textform">Оберіть марку</p>
+            <p><input type="checkbox" name="mark" value="samsung" /> samsung</p>
+            <p><input type="checkbox" name="mark" value="lg" /> lg</p>
+            <p>
+              <input checked type="checkbox" name="mark" value="lenovo" />
+              lenovo
+            </p>
+            <p><input type="checkbox" name="mark" value="asus" /> asus</p>
+          </div>
+          <div>
+            <p class="textform">Сортування</p>
+            <select name="sort">
+              <option value="cheap">дешеві</option>
+              <option selected value="expensive">дорогі</option>
+              <option value="by rating">по рейтингу</option>
+            </select>
+          </div>
+          <div>
+            <p class="textform">Напишіть назву моделі</p>
+            <textarea name="textarea"> </textarea>
+          </div>
+          <div class="button">
+            <button class="but" type="submit">Підтвердити</button>
+          </div>
+        </form>
+      </div>
+      <div class="m3"></div>
+    </main>
+  </body>
+</html>

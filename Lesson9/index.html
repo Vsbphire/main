@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/Lesson9/style.css" />
+    <link rel="stylesheet" href="/Lesson9/reset.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <p>Легка форма для вас</p>
+    </header>
+    <main>
+      <div class="m1"></div>
+      <div class="m2">
+        <form action="#" method="post" enctype="multipart/form-data">
+          <div>
+            <p class="textform">Ім'я</p>
+            <input placeholder="Ваше ім'я" type="text" name="username" />
+          </div>
+          <div>
+            <p class="textform">Пароль</p>
+            <input placeholder="Ваш пароль" type="password" name="userpass" />
+          </div>
+          <div>
+            <p class="textform">Повтор пароля</p>
+            <input
+              placeholder="Повторіть пароль"
+              type="password"
+              name="userpass2"
+            />
+          </div>
+          <div>
+            <p class="textform">Ваша дата народження</p>
+            <input type="date" name="date" />
+          </div>
+          <div>
+            <p class="textform">Оберіть стать</p>
+            <p><input type="radio" name="gender" value="male" /> Чоловік</p>
+            <p><input type="radio" name="gender" value="female" /> Жінка</p>
+          </div>
+          <div>
+            <p class="textform">Скільки вам повних літ?</p>
+            <p><input type="number" name="age" /></p>
+          </div>
+          <div>
+            <p class="textform">Опишіть себе</p>
+            <textarea name="text" width="100%"></textarea>
+          </div>
+          <div class="button">
+            <button class="but" type="submit">Відправити</button>
+          </div>
+          <div class="a">
+            <a href="/Lesson9/index2.html"> Перейти до наступного тесту </a>
+          </div>
+        </form>
+      </div>
+      <div class="m3"></div>
+    </main>
+  </body>
+</html>
