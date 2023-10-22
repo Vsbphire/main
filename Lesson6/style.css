@@ -1,0 +1,20 @@
+#bl1{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: relative;
+    z-index: 10;
+}
+#bl2{
+    width: 1200px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+    top: 5px;
+    z-index: 1;
+}
+@media screen and (max-width: 1200px) {
+    #bl2{
+        width: 800px;
+    }
+}
