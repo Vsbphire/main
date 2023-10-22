@@ -1,0 +1,25 @@
+.flexbox{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 800px;
+}
+.cb1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.cb2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.cb3 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.cb4 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
