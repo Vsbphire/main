@@ -1,0 +1,17 @@
+.div{
+    margin: 50px;
+    padding: 20px;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+
+.el{
+    border: 2px dotted black;
+}
