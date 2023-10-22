@@ -1,0 +1,22 @@
+
+.sp1{
+    position: relative;
+    bottom: 50px;
+}
+.sp2{
+    position: relative;
+    right: 100px;
+    top: 50px;
+}
+.abs{
+    /* position: absolute; */
+}
+.pr{
+    /* position: relative; */
+}
+.hg{
+    min-height: 1000px;
+}
+.fx{
+    position: fixed;
+}
